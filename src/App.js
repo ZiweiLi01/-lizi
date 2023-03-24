@@ -1,11 +1,15 @@
 import Child from "./Child"
 import './App.css';
+import { useEffect } from "react";
+import IndexRouter from "./router/IndexRouter";
+import {Router} from "react-router-dom"
 
 function App() {
+  
+  
   return (
-    <div className="App">
-      weishenme
-      <Child></Child>
+    <div>
+      <IndexRouter></IndexRouter>
     </div>
   );
 }
